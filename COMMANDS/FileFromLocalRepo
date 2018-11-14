@@ -1,0 +1,6 @@
+This file was created in my Local repo.
+I will use below commands to add, commit and push the changes to remote repo.
+
+git add FileFromLocalRepo
+git commit -m "This file was created in local repo and will be checked in to remote repo"
+git push origin master
