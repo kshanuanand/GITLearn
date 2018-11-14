@@ -16,3 +16,5 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 --- We will run below command to pull latest refs from remote repo and then we will push it to remote repo
+git pull https://github.com/kshanuanand/GITLearn.git master
+	above command merges master branch of remote repository, it also opens a editor to save commit message
