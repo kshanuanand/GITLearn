@@ -4,3 +4,15 @@ I will use below commands to add, commit and push the changes to remote repo.
 git add FileFromLocalRepo
 git commit -m "This file was created in local repo and will be checked in to remote repo"
 git push origin master
+
+--- Output Message from above command
+To https://github.com/kshanuanand/GITLearn.git
+! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/kshanuanand/GITLearn.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+--- We will run below command to pull latest refs from remote repo and then we will push it to remote repo
