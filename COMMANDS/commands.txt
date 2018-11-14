@@ -12,3 +12,11 @@ git push -u origin master
 
 import code from another repository
 
+
+####################################################################################
+--- Add a file to repository
+	git add <filename>
+	git add * 
+
+-- Commit files added to repository
+	git comit -m "Commit message"
