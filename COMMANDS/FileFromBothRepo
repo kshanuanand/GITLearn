@@ -2,3 +2,19 @@ This file was created on local repo.
 
 I am adding few comments just for fun.
 File should have something, what is the use of empty file.
+
+Below command failed , hence I was unable to push new changes to remot erepository.
+
+git push origin master
+To https://github.com/kshanuanand/GITLearn.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/kshanuanand/GITLearn.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+--- We will run below command to pull latest refs from remote repo and then we will push it to remote repo
+git pull https://github.com/kshanuanand/GITLearn.git master
