@@ -18,3 +18,34 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 --- We will run below command to pull latest refs from remote repo and then we will push it to remote repo
 git pull https://github.com/kshanuanand/GITLearn.git master
+
+
+
+
+
+
+Thid file was created in GitHubGUI Repo.
+
+Typing out something.
+Empty file does not look good.
+What a fun to write random lines.
+
+Betty baught a butter, but the butter was bitter, so Betty bought a better butter, to make bitter butter better butter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To merge the conflict I removed the <<<<<<< HEAD, ======= and >>>>>>> <branch name comes here> 
+Will add and then commit the change before pushing it to remote repository.
+
